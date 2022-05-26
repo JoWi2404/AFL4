@@ -8,11 +8,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
-    }
-}
+    @State private var selectedTab = "Agents"
+    
+    var body: some View{
+        TabView(selection: $selectedTab  ) {
+            Agents()
+                .onTapGesture {
+                    selectedTab = "Profile"
+                }
+                .tabItem(){
+                    Label("Agents", systemImage: "star")
+                }
+            ProfilePage()
+                .tabItem(){
+                    Label("Profile", systemImage: "person")
+                }
+                .tag("Profile")
+                }
+        
+            }
+        }
+    
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

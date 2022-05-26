@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0427D0F1283F7D350092CB27 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427D0F0283F7D350092CB27 /* ProfilePage.swift */; };
+		0427D0F3283F83B80092CB27 /* Agents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0427D0F2283F83B80092CB27 /* Agents.swift */; };
 		04DC1898283C65910059A2FF /* AFL_4App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC1897283C65910059A2FF /* AFL_4App.swift */; };
 		04DC189A283C65910059A2FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC1899283C65910059A2FF /* ContentView.swift */; };
 		04DC189C283C65920059A2FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04DC189B283C65920059A2FF /* Assets.xcassets */; };
@@ -14,7 +16,6 @@
 		04DC18A9283C65930059A2FF /* AFL_4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC18A8283C65930059A2FF /* AFL_4Tests.swift */; };
 		04DC18B3283C65930059A2FF /* AFL_4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC18B2283C65930059A2FF /* AFL_4UITests.swift */; };
 		04DC18B5283C65930059A2FF /* AFL_4UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC18B4283C65930059A2FF /* AFL_4UITestsLaunchTests.swift */; };
-		04DC18C2283C6F9D0059A2FF /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DC18C1283C6F9D0059A2FF /* HomePage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0427D0F0283F7D350092CB27 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		0427D0F2283F83B80092CB27 /* Agents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agents.swift; sourceTree = "<group>"; };
 		04DC1894283C65910059A2FF /* AFL 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AFL 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DC1897283C65910059A2FF /* AFL_4App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL_4App.swift; sourceTree = "<group>"; };
 		04DC1899283C65910059A2FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,7 +48,6 @@
 		04DC18AE283C65930059A2FF /* AFL 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AFL 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DC18B2283C65930059A2FF /* AFL_4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL_4UITests.swift; sourceTree = "<group>"; };
 		04DC18B4283C65930059A2FF /* AFL_4UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFL_4UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		04DC18C1283C6F9D0059A2FF /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +99,11 @@
 			isa = PBXGroup;
 			children = (
 				04DC1897283C65910059A2FF /* AFL_4App.swift */,
-				04DC1899283C65910059A2FF /* ContentView.swift */,
 				04DC189B283C65920059A2FF /* Assets.xcassets */,
+				04DC1899283C65910059A2FF /* ContentView.swift */,
 				04DC189D283C65920059A2FF /* Preview Content */,
-				04DC18C1283C6F9D0059A2FF /* HomePage.swift */,
+				0427D0F0283F7D350092CB27 /* ProfilePage.swift */,
+				0427D0F2283F83B80092CB27 /* Agents.swift */,
 			);
 			path = "AFL 4";
 			sourceTree = "<group>";
@@ -261,7 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04DC189A283C65910059A2FF /* ContentView.swift in Sources */,
-				04DC18C2283C6F9D0059A2FF /* HomePage.swift in Sources */,
+				0427D0F1283F7D350092CB27 /* ProfilePage.swift in Sources */,
+				0427D0F3283F83B80092CB27 /* Agents.swift in Sources */,
 				04DC1898283C65910059A2FF /* AFL_4App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
