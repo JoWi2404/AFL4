@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View{
         TabView(selection: $selectedTab  ) {
-            Agents()
+            AgentsView()
                 .onTapGesture {
                     selectedTab = "Profile"
                 }
@@ -25,7 +25,6 @@ struct ContentView: View {
                 }
                 .tag("Profile")
                 }
-        
             }
         }
     
