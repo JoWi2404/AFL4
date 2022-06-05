@@ -11,14 +11,12 @@ struct ContentView: View {
     @State private var selectedTab = "Agents"
     
     var body: some View{
-        TabView(selection: $selectedTab  ) {
+        TabView(selection: $selectedTab) {
             AgentsView()
-                .onTapGesture {
-                    selectedTab = "Profile"
-                }
                 .tabItem(){
                     Label("Agents", systemImage: "star")
                 }
+            
             ProfilePage()
                 .tabItem(){
                     Label("Profile", systemImage: "person")

@@ -12,7 +12,7 @@ struct ProfilePage: View {
         ScrollView{
             ZStack{
                 Image("Logo")
-                    .resizable().aspectRatio( contentMode: .fill)
+                    .resizable().aspectRatio(contentMode: .fill)
                     .frame(width: 400)
                 Image("Sage_artwork(1)")
                     .resizable(resizingMode: .stretch)
@@ -20,8 +20,8 @@ struct ProfilePage: View {
                     .frame(width: 100, height: 100)
                     .background(.white)
                     .cornerRadius(50)
-                    .offset(y : 90)
                     .shadow(radius: 20)
+                    .offset(y : 90)
             }
             VStack{
                 Text("JoWi")
